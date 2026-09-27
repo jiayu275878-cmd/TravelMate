@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelMate 地图 Key 自检</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        background: #f5f6f8;
+        color: #1a1a1a;
+      }
+      .wrap {
+        max-width: 430px;
+        margin: 0 auto;
+        padding-bottom: 24px;
+      }
+      h1 {
+        margin: 0;
+        padding: 20px 20px 0;
+        font-size: 18px;
+      }
+      .panel {
+        margin: 16px 20px;
+        padding: 12px 14px;
+        border-radius: 12px;
+        font-size: 13px;
+        line-height: 1.6;
+      }
+      .panel--info {
+        background: #eaf3ff;
+        color: #0a5bd3;
+      }
+      .panel--ok {
+        background: #e7f7ee;
+        color: #12794a;
+      }
+      .panel--bad {
+        background: #fdecea;
+        color: #b3261e;
+      }
+      #container {
+        height: 420px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>TravelMate 地图 Key 自检</h1>
+      <div id="panel" class="panel panel--info">正在检查…</div>
+      <div id="container"></div>
+    </div>
+    <script type="module" src="/src/key-check.js"></script>
+  </body>
+</html>
