@@ -20,3 +20,4 @@ npm-debug.log*
 
 # Office 打开文档时产生的临时文件
 ~$*
+*.docx
